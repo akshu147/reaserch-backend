@@ -27,7 +27,6 @@ const readformdata = async(req, res)=> {
         console.log(err)
     }
 }
-
 module.exports = {
     addformdata,
     readformdata
