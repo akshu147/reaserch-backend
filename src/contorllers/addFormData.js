@@ -3,7 +3,7 @@ const { formdatamodel } = require("../models/form/formdatamodel");
 const addformdata = async (req, res) => {
   try {
     const data = req.body;
-    console.log(data);
+    // console.log(data);
     
     const datatosave = new formdatamodel(data);
     const response = await datatosave.save();
